@@ -102,3 +102,75 @@ p {
 }
 
 /* more global css */
+
+.btn {
+    text-transform: uppercase;
+    background: var(--clr-primary);
+    color: var(--clr-white);
+    padding: 0.75rem 1rem;
+    letter-spacing: var(--spacing);
+    display: inline-block;
+    font-weight: 700;
+    transition: var(--transition);
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.btn:hover {
+    color: var(--clr-primary);
+    background: var(--clr-primary-ligth);
+}
+
+/* 
+============
+Header
+===========
+*/
+
+.header {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../images/main-bcg.jpeg") center/cover no-repeat fixed;
+    position: relative;
+    /* animation */
+    overflow: hidden;
+}
+
+.banner {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner h2 {
+    font-family: var(--ff-secondary);
+    color: var(--clr-primary);
+    /* animation */
+}
+
+.banner h1 {
+    text-transform: uppercase;
+    color: var(--clr-white);
+    margin-top: 1.25rem;
+    /* animation */
+}
+
+.banner-btn {
+    outline: 0.125rem solid var(--clr-primary);
+    outline-offset: 0.25rem;
+    font-size: 1.25rem;
+    padding: 1rem 1.75rem;
+}
+
+
+
+
+
+
+
+
+
+
