@@ -160,7 +160,7 @@ Header
 
 .banner-btn {
     outline: 0.125rem solid var(--clr-primary);
-    outline-offset: 0.25rem;
+    outline-offset: 0.25rem; 
     font-size: 1.25rem;
     padding: 1rem 1.75rem;
 }
