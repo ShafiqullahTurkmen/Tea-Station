@@ -123,6 +123,12 @@ p {
     background: var(--clr-primary-ligth);
 }
 
+.clearfix::after, .clearfix::before  {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 /* 
 ============
 Header
@@ -208,6 +214,21 @@ Header
 
 .skill:hover .skill-icon {
     transform: translateY(-5px);
+}
+
+@media screen and (min-width: 576px) {
+    .skill {
+        float: left;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .skill {
+        width: 25%;
+    }
+
+ 
 }
 
 
