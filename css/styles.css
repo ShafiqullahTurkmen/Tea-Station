@@ -364,5 +364,71 @@ Products
     
 }
 
+/* 
+============
+Services
+===========
+*/
+
+.services-title {
+    margin-top: 4rem;
+    margin-bottom: -4rem;
+    text-align: center;
+}
+
+.service-card {
+    margin: 2rem 0;
+    background: var(--clr-grey-10);
+    border-radius: var(--radius);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: var(--transition)
+}
+
+.service-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.service-img {
+    height: 17rem;
+    object-fit: cover;
+    border-top-right-radius: var(--radius);
+    border-top-left-radius: var(--radius);
+}
+
+.service-info {
+    text-align: center;
+    padding: 3rem 1rem 2.5rem 1rem;
+}
+
+.service-info p {
+    max-width: 20rem;
+    color: var(--clr-grey-5);
+    margin: 0 auto;
+}
+
+.service-btn {
+    font-size: 00.75rem;
+    text-transform: capitalize;
+    padding: 0.375rem 0.5rem;
+    border-radius: var(--radius);
+    font-weight: 400;
+    margin-top: 1.25rem;
+}
+
+@media screen and (min-width: 768px) {
+    .service-card {
+        float: left;
+        width: 45%;
+        margin-right: 5%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .service-card {
+        width: 30%;
+        margin-right: 3.333%;
+    }
+}
 
 
