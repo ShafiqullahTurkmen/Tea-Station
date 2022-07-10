@@ -537,3 +537,30 @@ Contact
 Footer
 ===========
 */
+
+.footer {
+    background: #222;
+    text-align: center;
+}
+
+.social-icon {
+    color: var(--clr-white);
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    transition: var(--transition);
+}
+
+.social-icon:hover {
+    color: var(--clr-primary);
+}
+
+.footer-text {
+    margin-top: 1.24rem;
+    text-transform: uppercase;
+    color: var(--clr-white);
+    font-weight: 400;
+}
+
+.company {
+    color: var(--clr-primary);
+}
