@@ -154,6 +154,23 @@ p {
 
 /* 
 ============
+Navbar
+===========
+*/
+
+.nav-btn {
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    font-size: 2.5rem;
+    color: var(--clr-primary);
+    z-index: 1;
+    cursor: pointer;
+    /* animation */
+}
+
+/* 
+============
 Header
 ===========
 */
