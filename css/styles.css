@@ -169,6 +169,68 @@ Navbar
     /* animation */
 }
 
+/* navbar */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--clr-grey-10);
+    z-index: 2;
+    box-shadow: 2px 0 2px rgba(0, 0, 0, 0.2);
+    /* hide navbar */
+}
+
+.shoNav {
+
+}
+
+.navbar-header {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.nav-close {
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: #f29c9c;
+    transition: var(--transition);
+}
+
+.nav-close:hover {
+    color: #bb2525;
+}
+
+.nav-items {
+    list-style-type: none;
+}
+
+.nav-link {
+    display: block;
+    font-size: 1.5rem;
+    padding: 0.25rem 1rem;
+    text-transform: uppercase;
+    letter-spacing: var(--spacing);
+    color: var(--clr-grey-5);
+    transition: var(--transition);
+}
+
+.nav-link:hover {
+    background: var(--clr-primary-ligth);
+    color: var(--clr-primary);
+    padding-left: 1.5rem;
+    border-left: 0.25rem solid var(--clr-primary);
+}
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        width: 30vw;
+        max-width: 20rem;
+    }
+}
+
 /* 
 ============
 Header
